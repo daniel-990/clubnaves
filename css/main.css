@@ -1,0 +1,93 @@
+/**
+    *   css Club Nautico
+*/
+
+.cont-salidas {
+    background-image: url('../src/Primera-parte.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1029px;
+}
+
+.contenedor-form {
+    position: relative;
+    top: 750px;
+}
+
+.cont-salidas-barcos {
+    background-image: url('../src/Segunda-parte.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 839px;
+}
+
+.contenedor-tabla {
+    position: relative;
+    top: 150px;
+}
+
+tbody {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    overflow: hidden;
+}
+
+.cont-barco {
+    background-image: url('../src/Tercera-parte.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.contenedor-masvisitado {
+    position: relative;
+    top: 300px;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.clase-si{
+    color:green;
+}
+.clase-no{
+    color:red;
+}
+.lupa-si{
+    color:green;
+    cursor: pointer;
+}
+.lupa-no{
+    color: #ccc;
+}
+
+
+/*
+    *Mobil
+*/
+@media (max-width: 993px) {
+    .contenedor-form {
+        top: 650px;
+    }
+    .cont-salidas {
+        width: auto;
+        height: 1029px;
+    }
+    .cont-salidas-barcos {
+        width: auto;
+        height: 839px;
+    }
+    .contenedor-tabla {
+        top: 70px;
+    }
+}
